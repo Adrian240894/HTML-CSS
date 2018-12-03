@@ -1,0 +1,49 @@
+#first{
+    border:solid 1px black;
+    padding: 10px;
+    border-collapse: collapse;
+}
+#first th{
+
+    border:solid 1px black;
+    text-align:center;
+    padding: 10px;
+}
+
+#first td{
+    border:solid 1px black;
+    text-align: center;
+    padding: 10px;
+}
+
+#first td:nth-child(1) {
+
+    text-align: left;
+}
+
+#second{
+
+    border:solid 1px black;
+    padding: 30px;
+    border-collapse: collapse;
+}
+#second th{
+    background-color:#95b3d7;
+    border:solid 1px black;
+    padding: 30px;
+    border-collapse: collapse;
+
+}
+#second td{
+   
+    border:solid 1px black;
+    padding: 30px;
+    border-collapse: collapse;
+
+}
+
+#second thead th:nth-child(1){
+    background-color: white;
+
+
+}

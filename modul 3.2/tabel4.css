@@ -1,0 +1,30 @@
+
+
+#tabel4, th, tr, td {
+border: 1px solid black;
+border-collapse: collapse;
+padding: 20px;
+
+}
+
+
+th{
+    background-color: #66A8BE;
+}
+ 
+thead th:nth-child(1){
+
+    background-color: rgb(12, 51, 65);
+}
+
+ tfoot tr th{
+    background-color: #B1CC7F;
+}
+
+tfoot tr td {
+    background-color: #D8E1C6;
+}
+
+td{
+    background-color: #D4EBF3;
+}
