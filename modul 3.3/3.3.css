@@ -1,0 +1,94 @@
+* {
+   border: 0 none;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(1000_2048x2048_allipadwallpapers_com.jpg);
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+
+   
+}
+
+.formular {
+
+    /* background-image: url(abstract-architecture-attractive-988873.jpg); */
+    padding: 10px;
+    border-radius: 5px;
+  
+
+}
+
+
+.formular h1,
+p:nth-child(2) {
+    text-align: right;
+    color: #000C90;
+}
+
+input {
+    border-radius: 5px;
+ 
+    padding: 5px;
+    width: 100%;
+    
+}
+
+label {
+
+    display: block;
+    text-align: left;
+}
+
+/* CLASE PT INPUTURI */
+
+.form-group{
+    
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+ 
+    color: white;
+    
+}
+
+.name {
+    background-color: #F66700;
+    
+
+}
+
+.email {
+
+    background-color: #00B7E6;
+    
+}
+
+.age {
+
+    background-color: #81CC00;
+   
+
+}
+
+
+
+button {
+    display: block;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    background-color: white;
+}

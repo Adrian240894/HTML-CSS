@@ -1,0 +1,19 @@
+.name input{
+
+
+    height: 30px;
+border-radius: 5px;
+padding-left: 225px;
+}
+
+.name input:nth-child(2){
+    margin-left:30px; 
+}
+
+.name label:nth-child(2){
+
+margin-left: 360px;
+
+
+}
+

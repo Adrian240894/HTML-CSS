@@ -1,0 +1,16 @@
+p {
+  
+    font-family: sans-serif;
+    padding: 20px;
+    /* background properties */
+    background-color: yellow;
+    /* background-image: url(https://mdn.mozillademos.org/files/13026/fire-ball-icon.png); */
+    background-repeat: no-repeat;
+    background-position: 99% center;
+    /* background-image: repeating-linear-gradient(to right, yellow, orange 25px, yellow 50px); */
+
+    background: url(https://mdn.mozillademos.org/files/13026/fire-ball-icon.png) no-repeat 99% center,
+                linear-gradient(to bottom, yellow, #dddd00 50%, orange);
+    
+}
+
