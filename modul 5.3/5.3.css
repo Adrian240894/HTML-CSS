@@ -44,14 +44,44 @@
 
 article{
 
-    background-image: url(top-image.png), url(bottom-image.png);
-    background-position: top, bottom;
+    background-image: url(top-image.png), 
+                      url(bottom-image.png),
+                      linear-gradient(
+                        rgba(1, 1, 1, 0.3),
+                        rgba(1, 1, 1, 0) 20%,
+                        rgba(1, 1, 1, 0) 80%,
+                        rgba(1, 1, 1, 0.3)
+                      );
+    background-position: left top, left bottom;
     background-repeat: no-repeat;
     border-top: 5px solid red;
     background-color: white;
+    
     
 }
   
 h1{
     background-image: url(logo.png);
+}
+
+.button{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    background-color: red;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 20px;
+    color: red;
+    text-shadow: 1px 1px 1px black;
+  
+}
+.button p {
+  width: 200px;
+  height: 20px;
+  
+  
+
 }
